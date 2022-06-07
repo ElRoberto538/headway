@@ -1,0 +1,11 @@
+{
+  "name": "carmen_build",
+  "version": "0.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "@mapbox/carmen": "^34.1.4",
+    "@mapbox/geojson-normalize": "^0.0.1",
+    "@mapbox/mbtiles": "^0.12.1"
+  },
+  "type": "module"
+}
