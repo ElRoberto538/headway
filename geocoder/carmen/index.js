@@ -14,6 +14,5 @@ outputStream._write = (chunk, encoding, done) => {
 };
 
 carmen.index(process.stdin, conf.to, {zoom: 6, output: outputStream}, ()=> {
-  carmen.analyze(conf.to, (err, stats)=> {console.log(stats)})
+  carmen.analyze(conf.to, (err, stats) => {console.log(stats)})
 });
-
